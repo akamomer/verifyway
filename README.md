@@ -31,7 +31,6 @@ curl -X POST https://api.verifyway.com/api/v1/ \
 
 When the request is successful, the API will return a JSON response as follows:
 
-```json
 {
     "status": "success",
     "message_id": "RANDOM_ID",
@@ -43,7 +42,6 @@ When the request is successful, the API will return a JSON response as follows:
 
 When the request fails, the API will return a JSON response as follows:
 
-```json
 {
     "error": "detail of the error"
 }
