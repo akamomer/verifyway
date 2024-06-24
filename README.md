@@ -38,3 +38,10 @@ When making requests to the VerifyWay API, the responses are formatted as follow
     "recipient": "+31612345678",
     "code": "123456"
 }
+
+### Failure Response
+
+```json
+{
+     "error": "detail of the error" 
+}
