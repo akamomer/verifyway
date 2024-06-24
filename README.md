@@ -14,7 +14,7 @@ Follow these steps to get started with VerifyWay API:
 ### Example API Request
 
 Use the following cURL command to send a request to the VerifyWay API:
-
+```
 curl -X POST https://api.verifyway.com/api/v1/ \
 -H 'Authorization: Bearer API_KEY' \
 -H 'Content-Type: application/json' \
@@ -24,7 +24,7 @@ curl -X POST https://api.verifyway.com/api/v1/ \
 "type":"otp",
 "code":"123456"
 }'
-
+```
 ## API Response Formats
 
 When making requests to the VerifyWay API, the responses are formatted as follows:
@@ -38,7 +38,7 @@ When making requests to the VerifyWay API, the responses are formatted as follow
     "recipient": "+31612345678",
     "code": "123456"
 }
-
+```
 
 ### Failure Response
 
@@ -46,3 +46,4 @@ When making requests to the VerifyWay API, the responses are formatted as follow
 {
     "error": "detail of the error" 
 }
+```
