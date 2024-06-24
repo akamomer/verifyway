@@ -39,9 +39,10 @@ When making requests to the VerifyWay API, the responses are formatted as follow
     "code": "123456"
 }
 
+
 ### Failure Response
 
 ```json
 {
-     "error": "detail of the error" 
+    "error": "detail of the error" 
 }
