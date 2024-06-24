@@ -25,23 +25,3 @@ curl -X POST https://api.verifyway.com/api/v1/ \
 "code":"123456"
 }'
 
-## API Response Formats
-
-### Success Response
-
-When the request is successful, the API will return a JSON response as follows:
-
-{
-    "status": "success",
-    "message_id": "RANDOM_ID",
-    "recipient": "+31612345678",
-    "code": "123456"
-}
-
-### Failure Response
-
-When the request fails, the API will return a JSON response as follows:
-
-{
-    "error": "detail of the error"
-}
